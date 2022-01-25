@@ -1,0 +1,336 @@
+/* ここから下に記載していく */
+/* ここからヘッダーデザイン */
+.header__nav{
+  display:flex;
+}
+
+.header__nav li{
+  margin-left: 50px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.mainvisual{
+  height: 400px;
+  background: url("../img/mainbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainvisual__title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.mainvisual__subtitle{
+  font-size: 30px;
+  font-weight: bold;
+  color:#fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about {
+  text-align: center;
+  margin: 60px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd61a;
+  margin-bottom: 30px;
+}
+
+.about__subtitle {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.about__text {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+.imgBox{
+  display:flex;
+  margin-bottom: 50px;
+}
+
+.imgBox p{
+ width: 25%;
+}
+
+.imgBox p img{
+  width: 100%;
+}
+
+
+.course {
+  margin: 50px 0;
+}
+
+.course__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.course__text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 70px;
+  margin-bottom: 60px;
+}
+
+.course__box {
+  margin-top: 50px;
+}
+
+.course__inner {
+  display: flex;
+}
+
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.course__content img {
+  width: 100%;
+  vertical-align: top;
+  
+}
+.content__title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  width: 100%;
+}
+.content__left {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+.news {
+  margin: 50px 0;
+}
+
+.news__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffd61a;
+}
+.news__subtitle {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.news__text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 70px;
+  margin-bottom: 50px;
+}
+.news__box{
+  margin-top: 60px;
+  display:flex;
+  justify-content: center;
+}
+.news__box div{
+  width: 50%;
+  margin: 10px;
+}
+
+.ボタン{
+  padding: 50px 0;
+  display:flex;
+  justify-content: center;
+}
+.button{
+  background: gold;
+  padding: 1em 1em;
+  border: #fff 2px solid;
+  font-size: 18px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.access {
+  margin: 50px ;
+  background-color: #c0c0c0;
+}
+
+.access__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.access__text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 70px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.access__box{
+  position: relative;
+  width: 100%;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.access__map{
+  width:100%;
+  float: none;
+}
+
+.contact {
+  text-align: center;
+  margin: 60px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact__subtitle {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.contact__text {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.contact__box{
+  width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contact-table{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-item,
+.contact-body{
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.contact-item{
+  text-align: left;
+  width: 30%;
+  background-color: #eee;
+}
+.contact-body{
+  width: 70%;
+}
+.form-text{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  max-width: 400px;
+}
+.form-select{
+  width: 180px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-skill+.contact-skill{
+  margin-top: 10px;
+}
+.contact-skill-txt{
+  margin-left: 5px;
+}
+.form-textarea{
+  width: 90%;
+  padding: 10px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
+.contact-submit{
+  width: 250px;
+  background-color: #ffd61a;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 100vh;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+}
+.container{
+  height: 100%;
+  position: relative;
+  padding-bottom: 120px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+
+}
